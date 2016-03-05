@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -73,7 +73,7 @@ body {
     }
 
     .home-sec h1 {
-        color: #fff;
+        color: #2f9484;
         font-weight: 900;
         font-size: 50px;
         text-transform: uppercase;
@@ -197,13 +197,16 @@ h1::after {
 /*=====================================
   FACULTY STYLES 
   ===================================*/
-#faculty-sec {
+#services-sec {
     background-color: #000;
     color: #fff;
 }
 
-    #faculty-sec .header-line {
+.header-line {
         color: #fff;
+    }
+.signup-header-line {
+        color: #1A94C4;
     }
 .faculty-div h4 {
     line-height:30px;
@@ -238,6 +241,7 @@ h1::after {
 #contact-sec {
     padding-top: 10px;
     padding-bottom: 60px;
+    bottom:70px;
     background: url(../img/contact.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
@@ -262,6 +266,11 @@ h1::after {
   Footer STYLES 
   ===================================*/
 #footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
     padding:5px 20px;
     background-color:#2d3d5a;
     text-align:right;
