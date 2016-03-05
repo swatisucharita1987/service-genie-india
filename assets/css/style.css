@@ -194,6 +194,7 @@ h1::after {
     -moz-border-radius: 0px;
     margin-bottom: 20px;
 }
+
 /*=====================================
   FACULTY STYLES 
   ===================================*/
@@ -203,6 +204,9 @@ h1::after {
 }
 
 .header-line {
+        color: #fff;
+    }
+.how-header-line {
         color: #000;
     }
 .signup-header-line {
