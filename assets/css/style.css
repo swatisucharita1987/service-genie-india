@@ -34,7 +34,7 @@ body {
 }
 
 #menu {
-    background-color: rgba(28, 43, 75, 1);
+    background-color: rgba(28, 43, 75, .90);
     color: #fff;
     font-size: 12px;
     font-weight: 900;
@@ -68,8 +68,8 @@ body {
 }
 
     .home-sec .overlay {
-        background: rgba(38, 57, 88, 0.89);
-        min-height: 500px;
+        background: rgba(38, 50, 88, 0.89);
+        min-height: 450px;
     }
 
     .home-sec h1 {
@@ -135,7 +135,7 @@ body {
 
 h1::after {
     content: " ";
-    border: solid 2px #2f9484;
+    border: solid 4px #2f9484;
     display: block;
     width: 200px;
     margin: 12px auto;
@@ -272,10 +272,10 @@ h1::after {
     position:fixed;
     left:0px;
     bottom:0px;
-    height:40px;
+    height:50px;
     width:100%;
     padding:5px 20px;
-    background-color:#2d3d5a;
+    background-color: rgba(28, 43, 75, .90);
     text-align:right;
     color:#fff;
     font-size:15px;
