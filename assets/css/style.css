@@ -198,9 +198,19 @@ h1::after {
   FACULTY STYLES 
   ===================================*/
 #services-sec {
-    background-color: #000;
+    background: url(../img/header.jpg) no-repeat center center;
     color: #fff;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+#services-sec .overlay {
+        background: rgba(0, 0, 0, 0.90);
+        min-height: 600px;
+    }
+
 
 .header-line {
         color: #fff;
